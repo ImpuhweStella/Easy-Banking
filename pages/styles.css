@@ -1,0 +1,292 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    /* height: 0px; */
+}
+.header img{
+    width: 80px;
+    height: 15px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.header ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header ul li{
+    list-style-type: none;
+      
+}
+.header ul li a {
+    color: hsl(233, 8%, 62%);
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 11px;  
+}
+.header button{
+    border-radius: 30px;
+    width: 150px;
+    border: none;
+    margin-right: 80px;
+    height: 40px;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%) );  
+}
+.header button a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+        font-weight: lighter; 
+        align-items: center;
+}
+.part2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color:  hsl(0, 0%, 100%);
+    height:500px;
+}
+.container-1{
+    flex-direction:column;
+    margin-left: 100px;
+
+}
+.container-1 h1{
+    font-weight: 500;
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 140px; 
+}
+.container-1 p{
+    color: hsl(233, 8%, 62%);
+    
+}
+.container-1 button{
+    border-radius: 30px;
+    width: 150px;
+    border: none;
+    margin-right: 80px;
+    height: 40px;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%) );  
+}
+.container-1 button a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: lighter; 
+    align-items: center;
+}
+
+
+.container-2{
+    background-image: url(../images/bg-intro-desktop.svg);
+    background-size: cover;
+    margin-left: 100px;
+    width: 60%;
+      
+}
+.container-2 img{
+    width:100%;
+    height: 700px;
+    margin-bottom: 100px;
+    
+}
+.part3{
+    background-color: hsl(0, 0%, 98%);   
+    height: 600px;
+ 
+}
+.section1 h1{
+    font-weight: 500;
+    font-family: 'Public Sans', sans-serif;
+    padding-top: 100px;
+    margin-left: 100px;
+
+}
+.section1 p{
+    margin-left: 100px;
+    margin-bottom: 100px;
+    color:  hsl(233, 8%, 62%);;
+}
+.box-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    justify-content: space-evenly;
+    
+}
+.box{
+    width:22%;
+    height: 50vh;
+}
+.box-container h1{
+    font-weight: 300;
+    font-family: 'Public Sans', sans-serif;
+
+}
+.box p{
+    color: hsl(233, 8%, 62%);
+}
+.part4{
+    background-color: hsl(0, 0%, 98%);
+    width: 100%;
+    height: 600px;
+}
+.part4-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 100px;
+    gap: 20px;
+}
+.part4 h1{
+    font-weight: 500;
+    font-family: 'Public Sans', sans-serif;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.container{
+    background-color:hsl(0, 0%, 100%); 
+    width: 285px;
+    height: 65vh;
+    margin-top: 30px;
+    
+}
+.container img{
+    width: 280px;
+    height: 200px;
+    margin-bottom: 15px;
+}
+.container h3{
+    font-weight: 300;
+    font-family: 'Public Sans', sans-serif;
+    margin-left: 15px;
+}
+.container h7{
+    color: hsl(233, 8%, 62%);
+    margin-left: 15px;
+}
+.container p{
+    color: hsl(233, 8%, 62%);
+    margin-left: 17px;
+}  
+.footer{
+    background-color: hsl(233, 26%, 24%);
+    height: 300px;
+   
+}
+.footer img{
+    width: 100px;
+    height: 15px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.socialmedia-icons ul{
+    display: flex;
+    position: absolute;
+    margin-top: 50px;
+}
+.socialmedia-icons ul li{
+    list-style-type: none;
+    margin-left: 40px;
+}
+
+#fbk{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    size:10px;
+    margin-left: 40px;
+}
+#ytb{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        size:10px;
+        margin-left: 40px;
+
+}
+#tw{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        size:10px;
+        margin-left: 40px;
+}
+#pin{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        size:10px;
+        margin-left: 40px;
+}
+#ig{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        size:10px;
+        margin-left: 40px;
+} 
+.footer-links{
+    flex-direction: column;
+    margin-left: 400px;
+}
+.links ul{
+    line-height: 40px;
+
+}
+.links ul li{
+    list-style-type: none;
+    
+}
+.links ul li a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+    
+}
+.links2{
+    flex-direction: column;
+    margin-left: 600px;
+
+}
+.links2 ul{
+    line-height: 40px;
+    position: absolute;
+    margin-top: -140px ;
+}
+.links2 ul li{
+    list-style-type: none;
+}
+.links2 ul li a{
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);   
+}
+
+.links2 button{
+    border-radius: 30px;
+    width: 150px;
+    border: none;
+    margin-right: 80px;
+    height: 40px;
+    background-image: linear-gradient(to right, hsl(136, 65%, 51%),hsl(192, 70%, 51%) );
+    margin-left: 380px;
+    position: absolute;
+    margin-top: -150px;
+}
+.links2 button a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: lighter; 
+    align-items: center;
+}
+.links2 p{
+    margin-left: 300px;
+    position: absolute;
+    color: hsl(233, 8%, 62%);
+    margin-top: -85px;
+}
